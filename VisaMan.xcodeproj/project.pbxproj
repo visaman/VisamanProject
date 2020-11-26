@@ -3,19 +3,97 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042C76AA2563DB7700DB1069 /* BookVisaManService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C76A92563DB7700DB1069 /* BookVisaManService.swift */; };
+		0448EAEC2563935A00A3A255 /* BookVisamanLiveChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448EAEB2563935A00A3A255 /* BookVisamanLiveChatVC.swift */; };
+		044D0620256BA9E800ABE7EF /* ContactUsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D061F256BA9E800ABE7EF /* ContactUsCell.swift */; };
+		0455C67E256F903D00F7D33D /* CountryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455C67D256F903D00F7D33D /* CountryCollectionViewCell.swift */; };
+		0455C683256F906800F7D33D /* CountryInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455C682256F906800F7D33D /* CountryInfoTableViewCell.swift */; };
+		04580378255909650072E573 /* VerifyMobileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04580377255909650072E573 /* VerifyMobileService.swift */; };
+		0458038C255943200072E573 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458038A255943200072E573 /* TabBarViewController.swift */; };
+		0458039B255949350072E573 /* CountryListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458039A255949350072E573 /* CountryListVC.swift */; };
+		045803A025594D540072E573 /* BookingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458039F25594D540072E573 /* BookingVC.swift */; };
+		045803A525594D660072E573 /* PointsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045803A425594D660072E573 /* PointsVC.swift */; };
+		045803AA25594D7D0072E573 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045803A925594D7D0072E573 /* ProfileVC.swift */; };
+		045803B7255952CF0072E573 /* SubscribeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045803B6255952CF0072E573 /* SubscribeVC.swift */; };
+		045803BC255952E00072E573 /* LiveChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045803BB255952E00072E573 /* LiveChatVC.swift */; };
+		045803C1255952F40072E573 /* WhatsAppCallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045803C0255952F40072E573 /* WhatsAppCallVC.swift */; };
+		045803C6255953190072E573 /* ServiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045803C5255953190072E573 /* ServiceVC.swift */; };
+		045803CB255953390072E573 /* PhoneCallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045803CA255953390072E573 /* PhoneCallVC.swift */; };
+		045803D0255957840072E573 /* DashBoardTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045803CF255957840072E573 /* DashBoardTabBarViewController.swift */; };
+		045803D6255967F50072E573 /* BookAServiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045803D5255967F50072E573 /* BookAServiceVC.swift */; };
+		045ACCFB255A5A0A00256F86 /* ShowAllBookingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045ACCFA255A5A0A00256F86 /* ShowAllBookingCell.swift */; };
+		045ACD05255A676600256F86 /* ServiceTableviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045ACD04255A676600256F86 /* ServiceTableviewCell.swift */; };
+		045ACD0A255A678000256F86 /* SeviceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045ACD09255A678000256F86 /* SeviceCollectionViewCell.swift */; };
+		045ACD26255A6D9200256F86 /* Pods_VisaMan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDAE7D064D6588D97716E9FD /* Pods_VisaMan.framework */; };
 		0465CF4C25528E1B009F53BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465CF4B25528E1B009F53BE /* AppDelegate.swift */; };
 		0465CF4E25528E1B009F53BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465CF4D25528E1B009F53BE /* SceneDelegate.swift */; };
-		0465CF5025528E1B009F53BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465CF4F25528E1B009F53BE /* ViewController.swift */; };
 		0465CF5325528E1B009F53BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0465CF5125528E1B009F53BE /* Main.storyboard */; };
 		0465CF5625528E1B009F53BE /* VisaMan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0465CF5425528E1B009F53BE /* VisaMan.xcdatamodeld */; };
 		0465CF5825528E1E009F53BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0465CF5725528E1E009F53BE /* Assets.xcassets */; };
 		0465CF5B25528E1E009F53BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0465CF5925528E1E009F53BE /* LaunchScreen.storyboard */; };
 		0465CF6625528E1F009F53BE /* VisaManTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465CF6525528E1F009F53BE /* VisaManTests.swift */; };
 		0465CF7125528E1F009F53BE /* VisaManUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465CF7025528E1F009F53BE /* VisaManUITests.swift */; };
+		0465CFA52552BD1A009F53BE /* VerifyMobileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465CFA42552BD1A009F53BE /* VerifyMobileVC.swift */; };
+		046708BA256CD00200C40727 /* DesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046708B9256CD00200C40727 /* DesignView.swift */; };
+		04684263256E2444001DE61F /* MyAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04684262256E2444001DE61F /* MyAccountVC.swift */; };
+		04684272256E4B01001DE61F /* CountryVisaInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04684271256E4B01001DE61F /* CountryVisaInfoVC.swift */; };
+		0468427F256E5CA0001DE61F /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0468427E256E5CA0001DE61F /* CountryModel.swift */; };
+		04684284256E5CB7001DE61F /* CountryServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04684283256E5CB7001DE61F /* CountryServices.swift */; };
+		0468428C256E5CFD001DE61F /* CountryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0468428B256E5CFD001DE61F /* CountryViewModel.swift */; };
+		047B84FB255D002900189C91 /* CenturyGothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 047B84F0255D002900189C91 /* CenturyGothic.ttf */; };
+		047B84FC255D002900189C91 /* myfontsfree.txt in Resources */ = {isa = PBXBuildFile; fileRef = 047B84F1255D002900189C91 /* myfontsfree.txt */; };
+		047B84FD255D002900189C91 /* gothicb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 047B84F2255D002900189C91 /* gothicb.ttf */; };
+		047B84FE255D002900189C91 /* GOTHIC.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 047B84F3255D002900189C91 /* GOTHIC.TTF */; };
+		047B84FF255D002900189C91 /* GOTHICBI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 047B84F4255D002900189C91 /* GOTHICBI.TTF */; };
+		047B8500255D002900189C91 /* GOTHICB.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 047B84F5255D002900189C91 /* GOTHICB.TTF */; };
+		047B8501255D002900189C91 /* GOTHICB0.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 047B84F6255D002900189C91 /* GOTHICB0.TTF */; };
+		047B8502255D002900189C91 /* century-gothic.png in Resources */ = {isa = PBXBuildFile; fileRef = 047B84F7255D002900189C91 /* century-gothic.png */; };
+		047B8503255D002900189C91 /* GOTHICI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 047B84F8255D002900189C91 /* GOTHICI.TTF */; };
+		047B8504255D002900189C91 /* gothici.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 047B84F9255D002900189C91 /* gothici.ttf */; };
+		047B8505255D002900189C91 /* Century Gothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 047B84FA255D002900189C91 /* Century Gothic.ttf */; };
+		047C323F2566575E007C0E02 /* DisplayNotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C323E2566575E007C0E02 /* DisplayNotificationVC.swift */; };
+		047C324D2566706D007C0E02 /* NotificationTableviewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047C324B2566706D007C0E02 /* NotificationTableviewCell.xib */; };
+		047C324E2566706D007C0E02 /* NotificationTableviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C324C2566706D007C0E02 /* NotificationTableviewCell.swift */; };
+		048024A32553E2A000D2F755 /* RegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048024A22553E2A000D2F755 /* RegistrationVC.swift */; };
+		048B2ABF255E590200DBAAC0 /* MemberShipVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048B2ABE255E590200DBAAC0 /* MemberShipVC.swift */; };
+		048C3301255524F50092015C /* VerifyMobileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C3300255524F50092015C /* VerifyMobileViewModel.swift */; };
+		048C3306255525970092015C /* VerifyMobileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C3305255525970092015C /* VerifyMobileModel.swift */; };
+		04A24DEB2567C72400BDD8F6 /* ControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A24DEA2567C72400BDD8F6 /* ControllerExtension.swift */; };
+		04A24DF52567D16B00BDD8F6 /* RegistrationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A24DF42567D16B00BDD8F6 /* RegistrationModel.swift */; };
+		04A24DFA2567D18900BDD8F6 /* RegistrationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A24DF92567D18900BDD8F6 /* RegistrationServices.swift */; };
+		04A24E022567D1C400BDD8F6 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A24E012567D1C400BDD8F6 /* RegistrationViewModel.swift */; };
+		04B7D3EF2562521E00178F23 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7D3D52562521E00178F23 /* ProgressBarView.swift */; };
+		04B7D3F02562521E00178F23 /* InteractiveNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7D3D72562521E00178F23 /* InteractiveNavigationController.swift */; };
+		04B7D3F12562521E00178F23 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7D3D82562521E00178F23 /* Utility.swift */; };
+		04B7D3F22562521E00178F23 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7D3DA2562521E00178F23 /* StringExtension.swift */; };
+		04B7D3F32562521E00178F23 /* SwiftExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7D3DB2562521E00178F23 /* SwiftExtensions.swift */; };
+		04B7D3F42562521E00178F23 /* TableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7D3DC2562521E00178F23 /* TableViewExtension.swift */; };
+		04B7D3F52562521E00178F23 /* KVTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7D3DD2562521E00178F23 /* KVTextField.swift */; };
+		04B7D3F62562521E00178F23 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7D3DE2562521E00178F23 /* CustomTextField.swift */; };
+		04B7D3F72562521E00178F23 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7D3DF2562521E00178F23 /* AppFont.swift */; };
+		04B7D3F82562521E00178F23 /* PercentLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7D3E02562521E00178F23 /* PercentLayoutConstraint.swift */; };
+		04B7D3F92562521E00178F23 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7D3E12562521E00178F23 /* UIViewExtensions.swift */; };
+		04B7D3FA2562521E00178F23 /* NavigationItemExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7D3E22562521E00178F23 /* NavigationItemExtensions.swift */; };
+		04B7D3FB2562521E00178F23 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7D3E32562521E00178F23 /* ImagePicker.swift */; };
+		04B7D3FC2562521E00178F23 /* UIStoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7D3E42562521E00178F23 /* UIStoryboardExtension.swift */; };
+		04B7D3FD2562521E00178F23 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7D3E52562521E00178F23 /* ViewControllerExtension.swift */; };
+		04B7D3FF2562521E00178F23 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7D3E72562521E00178F23 /* UIImageViewExtension.swift */; };
+		04B7D4002562521E00178F23 /* ColorExts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7D3E82562521E00178F23 /* ColorExts.swift */; };
+		04B7D4012562521E00178F23 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7D3E92562521E00178F23 /* NavigationController.swift */; };
+		04B7D4022562521E00178F23 /* ProjectUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7D3EB2562521E00178F23 /* ProjectUtilities.swift */; };
+		04B7D4032562521E00178F23 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7D3EC2562521E00178F23 /* Banner.swift */; };
+		04B7D4042562521E00178F23 /* KVPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7D3ED2562521E00178F23 /* KVPlayer.swift */; };
+		04B7D4052562521E00178F23 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7D3EE2562521E00178F23 /* Constants.swift */; };
+		04D23D3B2565484200721FB4 /* ChatBookingConfirmationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D23D3A2565484200721FB4 /* ChatBookingConfirmationVC.swift */; };
+		04D6A076255D62E400668C08 /* FAQVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6A075255D62E400668C08 /* FAQVC.swift */; };
+		04DA567925567FD40017B816 /* FTPUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA567425567FD40017B816 /* FTPUpload.swift */; };
+		04DA567C25567FD40017B816 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA567725567FD40017B816 /* Download.swift */; };
+		123D99BB98A9EC5E43448B9E /* Pods_VisaMan_VisaManUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0B5BEC06A4F1934BEE7C26C /* Pods_VisaMan_VisaManUITests.framework */; };
+		44B546AB47FAC5B33D1ABBAF /* Pods_VisaManTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1563124565685AA7170E2C21 /* Pods_VisaManTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +114,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		042C76A92563DB7700DB1069 /* BookVisaManService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookVisaManService.swift; sourceTree = "<group>"; };
+		0448EAEB2563935A00A3A255 /* BookVisamanLiveChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookVisamanLiveChatVC.swift; sourceTree = "<group>"; };
+		044D061F256BA9E800ABE7EF /* ContactUsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsCell.swift; sourceTree = "<group>"; };
+		0455C67D256F903D00F7D33D /* CountryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCollectionViewCell.swift; sourceTree = "<group>"; };
+		0455C682256F906800F7D33D /* CountryInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryInfoTableViewCell.swift; sourceTree = "<group>"; };
+		04580377255909650072E573 /* VerifyMobileService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyMobileService.swift; sourceTree = "<group>"; };
+		0458038A255943200072E573 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		0458039A255949350072E573 /* CountryListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryListVC.swift; sourceTree = "<group>"; };
+		0458039F25594D540072E573 /* BookingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingVC.swift; sourceTree = "<group>"; };
+		045803A425594D660072E573 /* PointsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsVC.swift; sourceTree = "<group>"; };
+		045803A925594D7D0072E573 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		045803B6255952CF0072E573 /* SubscribeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeVC.swift; sourceTree = "<group>"; };
+		045803BB255952E00072E573 /* LiveChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveChatVC.swift; sourceTree = "<group>"; };
+		045803C0255952F40072E573 /* WhatsAppCallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsAppCallVC.swift; sourceTree = "<group>"; };
+		045803C5255953190072E573 /* ServiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceVC.swift; sourceTree = "<group>"; };
+		045803CA255953390072E573 /* PhoneCallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneCallVC.swift; sourceTree = "<group>"; };
+		045803CF255957840072E573 /* DashBoardTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashBoardTabBarViewController.swift; sourceTree = "<group>"; };
+		045803D5255967F50072E573 /* BookAServiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookAServiceVC.swift; sourceTree = "<group>"; };
+		045ACCFA255A5A0A00256F86 /* ShowAllBookingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAllBookingCell.swift; sourceTree = "<group>"; };
+		045ACD04255A676600256F86 /* ServiceTableviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceTableviewCell.swift; sourceTree = "<group>"; };
+		045ACD09255A678000256F86 /* SeviceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeviceCollectionViewCell.swift; sourceTree = "<group>"; };
+		045ACD20255A6D3B00256F86 /* SVGKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SVGKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		045ACD2F255A700B00256F86 /* SVGKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SVGKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0465CF4825528E1B009F53BE /* VisaMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisaMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0465CF4B25528E1B009F53BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0465CF4D25528E1B009F53BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0465CF4F25528E1B009F53BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0465CF5225528E1B009F53BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0465CF5525528E1B009F53BE /* VisaMan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VisaMan.xcdatamodel; sourceTree = "<group>"; };
 		0465CF5725528E1E009F53BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +151,70 @@
 		0465CF6C25528E1F009F53BE /* VisaManUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisaManUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0465CF7025528E1F009F53BE /* VisaManUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaManUITests.swift; sourceTree = "<group>"; };
 		0465CF7225528E1F009F53BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0465CFA42552BD1A009F53BE /* VerifyMobileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyMobileVC.swift; sourceTree = "<group>"; };
+		046708B9256CD00200C40727 /* DesignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignView.swift; sourceTree = "<group>"; };
+		04684262256E2444001DE61F /* MyAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountVC.swift; sourceTree = "<group>"; };
+		04684271256E4B01001DE61F /* CountryVisaInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryVisaInfoVC.swift; sourceTree = "<group>"; };
+		0468427E256E5CA0001DE61F /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
+		04684283256E5CB7001DE61F /* CountryServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryServices.swift; sourceTree = "<group>"; };
+		0468428B256E5CFD001DE61F /* CountryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewModel.swift; sourceTree = "<group>"; };
+		047B84F0255D002900189C91 /* CenturyGothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CenturyGothic.ttf; sourceTree = "<group>"; };
+		047B84F1255D002900189C91 /* myfontsfree.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = myfontsfree.txt; sourceTree = "<group>"; };
+		047B84F2255D002900189C91 /* gothicb.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = gothicb.ttf; sourceTree = "<group>"; };
+		047B84F3255D002900189C91 /* GOTHIC.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOTHIC.TTF; sourceTree = "<group>"; };
+		047B84F4255D002900189C91 /* GOTHICBI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOTHICBI.TTF; sourceTree = "<group>"; };
+		047B84F5255D002900189C91 /* GOTHICB.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOTHICB.TTF; sourceTree = "<group>"; };
+		047B84F6255D002900189C91 /* GOTHICB0.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOTHICB0.TTF; sourceTree = "<group>"; };
+		047B84F7255D002900189C91 /* century-gothic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "century-gothic.png"; sourceTree = "<group>"; };
+		047B84F8255D002900189C91 /* GOTHICI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOTHICI.TTF; sourceTree = "<group>"; };
+		047B84F9255D002900189C91 /* gothici.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = gothici.ttf; sourceTree = "<group>"; };
+		047B84FA255D002900189C91 /* Century Gothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Century Gothic.ttf"; sourceTree = "<group>"; };
+		047C323E2566575E007C0E02 /* DisplayNotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayNotificationVC.swift; sourceTree = "<group>"; };
+		047C324B2566706D007C0E02 /* NotificationTableviewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationTableviewCell.xib; sourceTree = "<group>"; };
+		047C324C2566706D007C0E02 /* NotificationTableviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableviewCell.swift; sourceTree = "<group>"; };
+		048024A22553E2A000D2F755 /* RegistrationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationVC.swift; sourceTree = "<group>"; };
+		048B2ABE255E590200DBAAC0 /* MemberShipVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberShipVC.swift; sourceTree = "<group>"; };
+		048C3300255524F50092015C /* VerifyMobileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyMobileViewModel.swift; sourceTree = "<group>"; };
+		048C3305255525970092015C /* VerifyMobileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyMobileModel.swift; sourceTree = "<group>"; };
+		04A24DEA2567C72400BDD8F6 /* ControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerExtension.swift; sourceTree = "<group>"; };
+		04A24DF42567D16B00BDD8F6 /* RegistrationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationModel.swift; sourceTree = "<group>"; };
+		04A24DF92567D18900BDD8F6 /* RegistrationServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationServices.swift; sourceTree = "<group>"; };
+		04A24E012567D1C400BDD8F6 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		04B7D3D52562521E00178F23 /* ProgressBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		04B7D3D72562521E00178F23 /* InteractiveNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractiveNavigationController.swift; sourceTree = "<group>"; };
+		04B7D3D82562521E00178F23 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		04B7D3DA2562521E00178F23 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		04B7D3DB2562521E00178F23 /* SwiftExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftExtensions.swift; sourceTree = "<group>"; };
+		04B7D3DC2562521E00178F23 /* TableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewExtension.swift; sourceTree = "<group>"; };
+		04B7D3DD2562521E00178F23 /* KVTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVTextField.swift; sourceTree = "<group>"; };
+		04B7D3DE2562521E00178F23 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		04B7D3DF2562521E00178F23 /* AppFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFont.swift; sourceTree = "<group>"; };
+		04B7D3E02562521E00178F23 /* PercentLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PercentLayoutConstraint.swift; sourceTree = "<group>"; };
+		04B7D3E12562521E00178F23 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		04B7D3E22562521E00178F23 /* NavigationItemExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationItemExtensions.swift; sourceTree = "<group>"; };
+		04B7D3E32562521E00178F23 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		04B7D3E42562521E00178F23 /* UIStoryboardExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStoryboardExtension.swift; sourceTree = "<group>"; };
+		04B7D3E52562521E00178F23 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		04B7D3E72562521E00178F23 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		04B7D3E82562521E00178F23 /* ColorExts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExts.swift; sourceTree = "<group>"; };
+		04B7D3E92562521E00178F23 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		04B7D3EB2562521E00178F23 /* ProjectUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectUtilities.swift; sourceTree = "<group>"; };
+		04B7D3EC2562521E00178F23 /* Banner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
+		04B7D3ED2562521E00178F23 /* KVPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVPlayer.swift; sourceTree = "<group>"; };
+		04B7D3EE2562521E00178F23 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		04D23D3A2565484200721FB4 /* ChatBookingConfirmationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBookingConfirmationVC.swift; sourceTree = "<group>"; };
+		04D6A075255D62E400668C08 /* FAQVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQVC.swift; sourceTree = "<group>"; };
+		04DA567425567FD40017B816 /* FTPUpload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTPUpload.swift; sourceTree = "<group>"; };
+		04DA567725567FD40017B816 /* Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
+		0DCFDFA3CC55641E39DD5619 /* Pods-VisaMan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisaMan.debug.xcconfig"; path = "Target Support Files/Pods-VisaMan/Pods-VisaMan.debug.xcconfig"; sourceTree = "<group>"; };
+		1563124565685AA7170E2C21 /* Pods_VisaManTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VisaManTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		906AECB805A23C499CAAF600 /* Pods-VisaMan-VisaManUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisaMan-VisaManUITests.release.xcconfig"; path = "Target Support Files/Pods-VisaMan-VisaManUITests/Pods-VisaMan-VisaManUITests.release.xcconfig"; sourceTree = "<group>"; };
+		95915A1F48528402E015A0FD /* Pods-VisaMan-VisaManUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisaMan-VisaManUITests.debug.xcconfig"; path = "Target Support Files/Pods-VisaMan-VisaManUITests/Pods-VisaMan-VisaManUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC0A91D5D7C35A97B88227B6 /* Pods-VisaManTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisaManTests.debug.xcconfig"; path = "Target Support Files/Pods-VisaManTests/Pods-VisaManTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C04ECE0B0B075EA5E35C7D9B /* Pods-VisaMan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisaMan.release.xcconfig"; path = "Target Support Files/Pods-VisaMan/Pods-VisaMan.release.xcconfig"; sourceTree = "<group>"; };
+		C0B5BEC06A4F1934BEE7C26C /* Pods_VisaMan_VisaManUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VisaMan_VisaManUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF04C0494035BB9F573D6EF0 /* Pods-VisaManTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisaManTests.release.xcconfig"; path = "Target Support Files/Pods-VisaManTests/Pods-VisaManTests.release.xcconfig"; sourceTree = "<group>"; };
+		EDAE7D064D6588D97716E9FD /* Pods_VisaMan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VisaMan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +222,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045ACD26255A6D9200256F86 /* Pods_VisaMan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +230,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44B546AB47FAC5B33D1ABBAF /* Pods_VisaManTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,19 +238,138 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				123D99BB98A9EC5E43448B9E /* Pods_VisaMan_VisaManUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		042C76A82563DB3D00DB1069 /* BookVisaManService */ = {
+			isa = PBXGroup;
+			children = (
+				042C76A92563DB7700DB1069 /* BookVisaManService.swift */,
+			);
+			path = BookVisaManService;
+			sourceTree = "<group>";
+		};
+		0448EAEA2563916700A3A255 /* BookVisamanLiveChat */ = {
+			isa = PBXGroup;
+			children = (
+				0448EAEB2563935A00A3A255 /* BookVisamanLiveChatVC.swift */,
+			);
+			path = BookVisamanLiveChat;
+			sourceTree = "<group>";
+		};
+		04580388255943200072E573 /* Sidebar Menu */ = {
+			isa = PBXGroup;
+			children = (
+				045803CF255957840072E573 /* DashBoardTabBarViewController.swift */,
+				0458038A255943200072E573 /* TabBarViewController.swift */,
+			);
+			path = "Sidebar Menu";
+			sourceTree = "<group>";
+		};
+		04580393255948EE0072E573 /* Points */ = {
+			isa = PBXGroup;
+			children = (
+				045803A425594D660072E573 /* PointsVC.swift */,
+			);
+			path = Points;
+			sourceTree = "<group>";
+		};
+		04580394255948EE0072E573 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				045803A925594D7D0072E573 /* ProfileVC.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		04580395255948EE0072E573 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0458039A255949350072E573 /* CountryListVC.swift */,
+				0468428B256E5CFD001DE61F /* CountryViewModel.swift */,
+				0468427E256E5CA0001DE61F /* CountryModel.swift */,
+				04684283256E5CB7001DE61F /* CountryServices.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		04580396255948FF0072E573 /* Booking */ = {
+			isa = PBXGroup;
+			children = (
+				0458039F25594D540072E573 /* BookingVC.swift */,
+				045ACCFA255A5A0A00256F86 /* ShowAllBookingCell.swift */,
+			);
+			path = Booking;
+			sourceTree = "<group>";
+		};
+		045803AE255952700072E573 /* Call */ = {
+			isa = PBXGroup;
+			children = (
+				045803CA255953390072E573 /* PhoneCallVC.swift */,
+				044D061F256BA9E800ABE7EF /* ContactUsCell.swift */,
+			);
+			path = Call;
+			sourceTree = "<group>";
+		};
+		045803AF2559527C0072E573 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				045803C5255953190072E573 /* ServiceVC.swift */,
+				045ACD04255A676600256F86 /* ServiceTableviewCell.swift */,
+				045ACD09255A678000256F86 /* SeviceCollectionViewCell.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		045803B0255952890072E573 /* What'sCall */ = {
+			isa = PBXGroup;
+			children = (
+				045803C0255952F40072E573 /* WhatsAppCallVC.swift */,
+			);
+			path = "What'sCall";
+			sourceTree = "<group>";
+		};
+		045803B12559529A0072E573 /* Live Chat */ = {
+			isa = PBXGroup;
+			children = (
+				045803BB255952E00072E573 /* LiveChatVC.swift */,
+			);
+			path = "Live Chat";
+			sourceTree = "<group>";
+		};
+		045803B2255952AA0072E573 /* Subscribe */ = {
+			isa = PBXGroup;
+			children = (
+				045803B6255952CF0072E573 /* SubscribeVC.swift */,
+			);
+			path = Subscribe;
+			sourceTree = "<group>";
+		};
+		045803D4255967E20072E573 /* BookAService */ = {
+			isa = PBXGroup;
+			children = (
+				045803D5255967F50072E573 /* BookAServiceVC.swift */,
+			);
+			path = BookAService;
+			sourceTree = "<group>";
+		};
 		0465CF3F25528E1B009F53BE = {
 			isa = PBXGroup;
 			children = (
+				048B2AB5255E58C300DBAAC0 /* MemberShip */,
+				04580388255943200072E573 /* Sidebar Menu */,
+				04DA567225567FA20017B816 /* ThirdPartyLiabrary */,
+				0465CFA22552BCAB009F53BE /* Controllor */,
 				0465CF4A25528E1B009F53BE /* VisaMan */,
 				0465CF6425528E1F009F53BE /* VisaManTests */,
 				0465CF6F25528E1F009F53BE /* VisaManUITests */,
 				0465CF4925528E1B009F53BE /* Products */,
+				9AA4594EF60021AF97F6808E /* Pods */,
+				1545B0E971698192F4D0AAF2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,7 +388,6 @@
 			children = (
 				0465CF4B25528E1B009F53BE /* AppDelegate.swift */,
 				0465CF4D25528E1B009F53BE /* SceneDelegate.swift */,
-				0465CF4F25528E1B009F53BE /* ViewController.swift */,
 				0465CF5125528E1B009F53BE /* Main.storyboard */,
 				0465CF5725528E1E009F53BE /* Assets.xcassets */,
 				0465CF5925528E1E009F53BE /* LaunchScreen.storyboard */,
@@ -131,6 +415,224 @@
 			path = VisaManUITests;
 			sourceTree = "<group>";
 		};
+		0465CFA22552BCAB009F53BE /* Controllor */ = {
+			isa = PBXGroup;
+			children = (
+				04684270256E4B01001DE61F /* Country Visa Info */,
+				04684261256E23D7001DE61F /* MyAccount */,
+				047C323D25665739007C0E02 /* Notification */,
+				04D23D392565481F00721FB4 /* Booking Confirmation */,
+				042C76A82563DB3D00DB1069 /* BookVisaManService */,
+				0448EAEA2563916700A3A255 /* BookVisamanLiveChat */,
+				045803D4255967E20072E573 /* BookAService */,
+				045803B2255952AA0072E573 /* Subscribe */,
+				045803B12559529A0072E573 /* Live Chat */,
+				045803B0255952890072E573 /* What'sCall */,
+				045803AF2559527C0072E573 /* Service */,
+				045803AE255952700072E573 /* Call */,
+				04D6A074255D62BB00668C08 /* FAQ */,
+				04580396255948FF0072E573 /* Booking */,
+				04580393255948EE0072E573 /* Points */,
+				04580394255948EE0072E573 /* Profile */,
+				04580395255948EE0072E573 /* Home */,
+				048024A12553E26E00D2F755 /* Registration */,
+				0465CFA32552BCED009F53BE /* Verify Mobile Number */,
+			);
+			path = Controllor;
+			sourceTree = "<group>";
+		};
+		0465CFA32552BCED009F53BE /* Verify Mobile Number */ = {
+			isa = PBXGroup;
+			children = (
+				0465CFA42552BD1A009F53BE /* VerifyMobileVC.swift */,
+				048C3300255524F50092015C /* VerifyMobileViewModel.swift */,
+				048C3305255525970092015C /* VerifyMobileModel.swift */,
+				04580377255909650072E573 /* VerifyMobileService.swift */,
+			);
+			path = "Verify Mobile Number";
+			sourceTree = "<group>";
+		};
+		04684261256E23D7001DE61F /* MyAccount */ = {
+			isa = PBXGroup;
+			children = (
+				04684262256E2444001DE61F /* MyAccountVC.swift */,
+			);
+			path = MyAccount;
+			sourceTree = "<group>";
+		};
+		04684270256E4B01001DE61F /* Country Visa Info */ = {
+			isa = PBXGroup;
+			children = (
+				04684271256E4B01001DE61F /* CountryVisaInfoVC.swift */,
+				0455C67D256F903D00F7D33D /* CountryCollectionViewCell.swift */,
+				0455C682256F906800F7D33D /* CountryInfoTableViewCell.swift */,
+			);
+			path = "Country Visa Info";
+			sourceTree = "<group>";
+		};
+		047B84EF255D002900189C91 /* Century Gothic Font Family */ = {
+			isa = PBXGroup;
+			children = (
+				047B84F0255D002900189C91 /* CenturyGothic.ttf */,
+				047B84F1255D002900189C91 /* myfontsfree.txt */,
+				047B84F2255D002900189C91 /* gothicb.ttf */,
+				047B84F3255D002900189C91 /* GOTHIC.TTF */,
+				047B84F4255D002900189C91 /* GOTHICBI.TTF */,
+				047B84F5255D002900189C91 /* GOTHICB.TTF */,
+				047B84F6255D002900189C91 /* GOTHICB0.TTF */,
+				047B84F7255D002900189C91 /* century-gothic.png */,
+				047B84F8255D002900189C91 /* GOTHICI.TTF */,
+				047B84F9255D002900189C91 /* gothici.ttf */,
+				047B84FA255D002900189C91 /* Century Gothic.ttf */,
+			);
+			path = "Century Gothic Font Family";
+			sourceTree = "<group>";
+		};
+		047C323D25665739007C0E02 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				047C323E2566575E007C0E02 /* DisplayNotificationVC.swift */,
+				047C324B2566706D007C0E02 /* NotificationTableviewCell.xib */,
+				047C324C2566706D007C0E02 /* NotificationTableviewCell.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		048024A12553E26E00D2F755 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				048024A22553E2A000D2F755 /* RegistrationVC.swift */,
+				04A24E012567D1C400BDD8F6 /* RegistrationViewModel.swift */,
+				04A24DF42567D16B00BDD8F6 /* RegistrationModel.swift */,
+				04A24DF92567D18900BDD8F6 /* RegistrationServices.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		048B2AB5255E58C300DBAAC0 /* MemberShip */ = {
+			isa = PBXGroup;
+			children = (
+				048B2ABE255E590200DBAAC0 /* MemberShipVC.swift */,
+			);
+			name = MemberShip;
+			path = Controllor/MemberShip;
+			sourceTree = "<group>";
+		};
+		04B7D3D42562521E00178F23 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				04B7D3D52562521E00178F23 /* ProgressBarView.swift */,
+				04B7D3D62562521E00178F23 /* KumarUtility */,
+				04B7D3DE2562521E00178F23 /* CustomTextField.swift */,
+				04B7D3DF2562521E00178F23 /* AppFont.swift */,
+				04B7D3E02562521E00178F23 /* PercentLayoutConstraint.swift */,
+				04B7D3E12562521E00178F23 /* UIViewExtensions.swift */,
+				04B7D3E22562521E00178F23 /* NavigationItemExtensions.swift */,
+				04B7D3E32562521E00178F23 /* ImagePicker.swift */,
+				04B7D3E42562521E00178F23 /* UIStoryboardExtension.swift */,
+				04B7D3E52562521E00178F23 /* ViewControllerExtension.swift */,
+				04B7D3E72562521E00178F23 /* UIImageViewExtension.swift */,
+				04B7D3E82562521E00178F23 /* ColorExts.swift */,
+				04B7D3E92562521E00178F23 /* NavigationController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		04B7D3D62562521E00178F23 /* KumarUtility */ = {
+			isa = PBXGroup;
+			children = (
+				04B7D3D72562521E00178F23 /* InteractiveNavigationController.swift */,
+				04B7D3D82562521E00178F23 /* Utility.swift */,
+				04B7D3D92562521E00178F23 /* extensions */,
+				04B7D3DD2562521E00178F23 /* KVTextField.swift */,
+			);
+			path = KumarUtility;
+			sourceTree = "<group>";
+		};
+		04B7D3D92562521E00178F23 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				04B7D3DA2562521E00178F23 /* StringExtension.swift */,
+				04B7D3DB2562521E00178F23 /* SwiftExtensions.swift */,
+				04B7D3DC2562521E00178F23 /* TableViewExtension.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		04B7D3EA2562521E00178F23 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				04B7D3EB2562521E00178F23 /* ProjectUtilities.swift */,
+				04B7D3EC2562521E00178F23 /* Banner.swift */,
+				04B7D3ED2562521E00178F23 /* KVPlayer.swift */,
+				04B7D3EE2562521E00178F23 /* Constants.swift */,
+				04A24DEA2567C72400BDD8F6 /* ControllerExtension.swift */,
+				046708B9256CD00200C40727 /* DesignView.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		04D23D392565481F00721FB4 /* Booking Confirmation */ = {
+			isa = PBXGroup;
+			children = (
+				04D23D3A2565484200721FB4 /* ChatBookingConfirmationVC.swift */,
+			);
+			path = "Booking Confirmation";
+			sourceTree = "<group>";
+		};
+		04D6A074255D62BB00668C08 /* FAQ */ = {
+			isa = PBXGroup;
+			children = (
+				04D6A075255D62E400668C08 /* FAQVC.swift */,
+			);
+			path = FAQ;
+			sourceTree = "<group>";
+		};
+		04DA567225567FA20017B816 /* ThirdPartyLiabrary */ = {
+			isa = PBXGroup;
+			children = (
+				04B7D3D42562521E00178F23 /* Extensions */,
+				04B7D3EA2562521E00178F23 /* Utility */,
+				047B84EF255D002900189C91 /* Century Gothic Font Family */,
+				04DA567325567FD40017B816 /* API Client */,
+			);
+			path = ThirdPartyLiabrary;
+			sourceTree = "<group>";
+		};
+		04DA567325567FD40017B816 /* API Client */ = {
+			isa = PBXGroup;
+			children = (
+				04DA567425567FD40017B816 /* FTPUpload.swift */,
+				04DA567725567FD40017B816 /* Download.swift */,
+			);
+			path = "API Client";
+			sourceTree = "<group>";
+		};
+		1545B0E971698192F4D0AAF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				045ACD2F255A700B00256F86 /* SVGKit.framework */,
+				045ACD20255A6D3B00256F86 /* SVGKit.framework */,
+				EDAE7D064D6588D97716E9FD /* Pods_VisaMan.framework */,
+				C0B5BEC06A4F1934BEE7C26C /* Pods_VisaMan_VisaManUITests.framework */,
+				1563124565685AA7170E2C21 /* Pods_VisaManTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AA4594EF60021AF97F6808E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DCFDFA3CC55641E39DD5619 /* Pods-VisaMan.debug.xcconfig */,
+				C04ECE0B0B075EA5E35C7D9B /* Pods-VisaMan.release.xcconfig */,
+				95915A1F48528402E015A0FD /* Pods-VisaMan-VisaManUITests.debug.xcconfig */,
+				906AECB805A23C499CAAF600 /* Pods-VisaMan-VisaManUITests.release.xcconfig */,
+				BC0A91D5D7C35A97B88227B6 /* Pods-VisaManTests.debug.xcconfig */,
+				DF04C0494035BB9F573D6EF0 /* Pods-VisaManTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +640,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0465CF7525528E1F009F53BE /* Build configuration list for PBXNativeTarget "VisaMan" */;
 			buildPhases = (
+				378FB3A3D4015ED22594D711 /* [CP] Check Pods Manifest.lock */,
 				0465CF4425528E1B009F53BE /* Sources */,
 				0465CF4525528E1B009F53BE /* Frameworks */,
 				0465CF4625528E1B009F53BE /* Resources */,
+				E05F9E72701014352B1E4620 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +659,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0465CF7825528E1F009F53BE /* Build configuration list for PBXNativeTarget "VisaManTests" */;
 			buildPhases = (
+				D3869B19F7BC9BC089D4FBA6 /* [CP] Check Pods Manifest.lock */,
 				0465CF5D25528E1F009F53BE /* Sources */,
 				0465CF5E25528E1F009F53BE /* Frameworks */,
 				0465CF5F25528E1F009F53BE /* Resources */,
@@ -173,9 +678,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0465CF7B25528E1F009F53BE /* Build configuration list for PBXNativeTarget "VisaManUITests" */;
 			buildPhases = (
+				DAA4338124AC48185DCBC8F3 /* [CP] Check Pods Manifest.lock */,
 				0465CF6825528E1F009F53BE /* Sources */,
 				0465CF6925528E1F009F53BE /* Frameworks */,
 				0465CF6A25528E1F009F53BE /* Resources */,
+				66947E3150D1133FEF932CE7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,8 +742,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				0465CF5B25528E1E009F53BE /* LaunchScreen.storyboard in Resources */,
+				047B84FF255D002900189C91 /* GOTHICBI.TTF in Resources */,
+				047B8503255D002900189C91 /* GOTHICI.TTF in Resources */,
+				047B8500255D002900189C91 /* GOTHICB.TTF in Resources */,
+				047B8505255D002900189C91 /* Century Gothic.ttf in Resources */,
+				047B84FB255D002900189C91 /* CenturyGothic.ttf in Resources */,
+				047B84FE255D002900189C91 /* GOTHIC.TTF in Resources */,
 				0465CF5825528E1E009F53BE /* Assets.xcassets in Resources */,
+				047B84FC255D002900189C91 /* myfontsfree.txt in Resources */,
 				0465CF5325528E1B009F53BE /* Main.storyboard in Resources */,
+				047B8502255D002900189C91 /* century-gothic.png in Resources */,
+				047B8501255D002900189C91 /* GOTHICB0.TTF in Resources */,
+				047B84FD255D002900189C91 /* gothicb.ttf in Resources */,
+				047C324D2566706D007C0E02 /* NotificationTableviewCell.xib in Resources */,
+				047B8504255D002900189C91 /* gothici.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +775,181 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		378FB3A3D4015ED22594D711 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VisaMan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66947E3150D1133FEF932CE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VisaMan-VisaManUITests/Pods-VisaMan-VisaManUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VisaMan-VisaManUITests/Pods-VisaMan-VisaManUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VisaMan-VisaManUITests/Pods-VisaMan-VisaManUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3869B19F7BC9BC089D4FBA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VisaManTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAA4338124AC48185DCBC8F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VisaMan-VisaManUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E05F9E72701014352B1E4620 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VisaMan/Pods-VisaMan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VisaMan/Pods-VisaMan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VisaMan/Pods-VisaMan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0465CF4425528E1B009F53BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0465CF5025528E1B009F53BE /* ViewController.swift in Sources */,
+				045803AA25594D7D0072E573 /* ProfileVC.swift in Sources */,
+				04B7D3F22562521E00178F23 /* StringExtension.swift in Sources */,
+				04B7D3FD2562521E00178F23 /* ViewControllerExtension.swift in Sources */,
+				04A24E022567D1C400BDD8F6 /* RegistrationViewModel.swift in Sources */,
+				045ACD05255A676600256F86 /* ServiceTableviewCell.swift in Sources */,
+				048C3306255525970092015C /* VerifyMobileModel.swift in Sources */,
+				04D23D3B2565484200721FB4 /* ChatBookingConfirmationVC.swift in Sources */,
+				04DA567925567FD40017B816 /* FTPUpload.swift in Sources */,
+				04B7D3FF2562521E00178F23 /* UIImageViewExtension.swift in Sources */,
+				045ACD0A255A678000256F86 /* SeviceCollectionViewCell.swift in Sources */,
+				045803CB255953390072E573 /* PhoneCallVC.swift in Sources */,
+				047C324E2566706D007C0E02 /* NotificationTableviewCell.swift in Sources */,
+				048B2ABF255E590200DBAAC0 /* MemberShipVC.swift in Sources */,
+				0465CFA52552BD1A009F53BE /* VerifyMobileVC.swift in Sources */,
 				0465CF4C25528E1B009F53BE /* AppDelegate.swift in Sources */,
+				04A24DEB2567C72400BDD8F6 /* ControllerExtension.swift in Sources */,
+				044D0620256BA9E800ABE7EF /* ContactUsCell.swift in Sources */,
+				0468427F256E5CA0001DE61F /* CountryModel.swift in Sources */,
+				04B7D3F92562521E00178F23 /* UIViewExtensions.swift in Sources */,
+				048C3301255524F50092015C /* VerifyMobileViewModel.swift in Sources */,
+				04A24DF52567D16B00BDD8F6 /* RegistrationModel.swift in Sources */,
+				04A24DFA2567D18900BDD8F6 /* RegistrationServices.swift in Sources */,
+				04B7D4012562521E00178F23 /* NavigationController.swift in Sources */,
 				0465CF4E25528E1B009F53BE /* SceneDelegate.swift in Sources */,
+				04B7D3F52562521E00178F23 /* KVTextField.swift in Sources */,
+				045ACCFB255A5A0A00256F86 /* ShowAllBookingCell.swift in Sources */,
+				04B7D3F62562521E00178F23 /* CustomTextField.swift in Sources */,
+				04B7D3F32562521E00178F23 /* SwiftExtensions.swift in Sources */,
+				045803B7255952CF0072E573 /* SubscribeVC.swift in Sources */,
+				04B7D3EF2562521E00178F23 /* ProgressBarView.swift in Sources */,
+				045803D0255957840072E573 /* DashBoardTabBarViewController.swift in Sources */,
+				04580378255909650072E573 /* VerifyMobileService.swift in Sources */,
+				04B7D4052562521E00178F23 /* Constants.swift in Sources */,
+				046708BA256CD00200C40727 /* DesignView.swift in Sources */,
+				04B7D3F72562521E00178F23 /* AppFont.swift in Sources */,
+				045803D6255967F50072E573 /* BookAServiceVC.swift in Sources */,
+				04B7D3FA2562521E00178F23 /* NavigationItemExtensions.swift in Sources */,
+				04B7D4042562521E00178F23 /* KVPlayer.swift in Sources */,
+				04D6A076255D62E400668C08 /* FAQVC.swift in Sources */,
+				04684263256E2444001DE61F /* MyAccountVC.swift in Sources */,
+				04B7D4032562521E00178F23 /* Banner.swift in Sources */,
+				04B7D4002562521E00178F23 /* ColorExts.swift in Sources */,
+				045803A525594D660072E573 /* PointsVC.swift in Sources */,
+				0455C67E256F903D00F7D33D /* CountryCollectionViewCell.swift in Sources */,
+				04B7D3F02562521E00178F23 /* InteractiveNavigationController.swift in Sources */,
+				0468428C256E5CFD001DE61F /* CountryViewModel.swift in Sources */,
+				04B7D3F12562521E00178F23 /* Utility.swift in Sources */,
+				045803C6255953190072E573 /* ServiceVC.swift in Sources */,
+				0458039B255949350072E573 /* CountryListVC.swift in Sources */,
+				048024A32553E2A000D2F755 /* RegistrationVC.swift in Sources */,
+				0458038C255943200072E573 /* TabBarViewController.swift in Sources */,
+				04B7D3F82562521E00178F23 /* PercentLayoutConstraint.swift in Sources */,
+				04B7D3FC2562521E00178F23 /* UIStoryboardExtension.swift in Sources */,
+				04B7D4022562521E00178F23 /* ProjectUtilities.swift in Sources */,
+				04B7D3F42562521E00178F23 /* TableViewExtension.swift in Sources */,
+				042C76AA2563DB7700DB1069 /* BookVisaManService.swift in Sources */,
+				0448EAEC2563935A00A3A255 /* BookVisamanLiveChatVC.swift in Sources */,
 				0465CF5625528E1B009F53BE /* VisaMan.xcdatamodeld in Sources */,
+				045803C1255952F40072E573 /* WhatsAppCallVC.swift in Sources */,
+				045803BC255952E00072E573 /* LiveChatVC.swift in Sources */,
+				04B7D3FB2562521E00178F23 /* ImagePicker.swift in Sources */,
+				045803A025594D540072E573 /* BookingVC.swift in Sources */,
+				047C323F2566575E007C0E02 /* DisplayNotificationVC.swift in Sources */,
+				04DA567C25567FD40017B816 /* Download.swift in Sources */,
+				04684284256E5CB7001DE61F /* CountryServices.swift in Sources */,
+				0455C683256F906800F7D33D /* CountryInfoTableViewCell.swift in Sources */,
+				04684272256E4B01001DE61F /* CountryVisaInfoVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +1122,7 @@
 		};
 		0465CF7625528E1F009F53BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DCFDFA3CC55641E39DD5619 /* Pods-VisaMan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -455,6 +1141,7 @@
 		};
 		0465CF7725528E1F009F53BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C04ECE0B0B075EA5E35C7D9B /* Pods-VisaMan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +1160,7 @@
 		};
 		0465CF7925528E1F009F53BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC0A91D5D7C35A97B88227B6 /* Pods-VisaManTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +1182,7 @@
 		};
 		0465CF7A25528E1F009F53BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF04C0494035BB9F573D6EF0 /* Pods-VisaManTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +1204,7 @@
 		};
 		0465CF7C25528E1F009F53BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95915A1F48528402E015A0FD /* Pods-VisaMan-VisaManUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +1224,7 @@
 		};
 		0465CF7D25528E1F009F53BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 906AECB805A23C499CAAF600 /* Pods-VisaMan-VisaManUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
